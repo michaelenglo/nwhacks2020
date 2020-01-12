@@ -1,19 +1,13 @@
 import React from 'react';
-import Navbar from './Navbar';
-import './App.scss';
+import Navbar from 'Navbar';
+import 'App.scss';
+import MainContent from './MainContent';
 
 function App() {
   return (
     <div className="App">
-        {/* nav bar */}
-        <header>
-          <Navbar />
-        </header>
-
-        {/* main content */}
-        <main>
-
-        </main>
+      <Navbar />
+      <MainContent />
     </div>
   );
 }

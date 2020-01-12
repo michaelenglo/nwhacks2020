@@ -1,0 +1,10 @@
+@import './styles/colors.scss';
+
+nav {
+  background-color: $THEME !important; 
+  color: #ffffff !important;
+
+  .navbar-brand {
+    color: #ffffff !important;
+  }
+}
