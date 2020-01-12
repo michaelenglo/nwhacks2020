@@ -9,6 +9,7 @@ import {
 import HomePage from "pages/HomePage";
 import RestaurantPage from "pages/RestaurantPage";
 import SuccessPage from "pages/SuccessPage";
+import ManagerPage from "./pages/ManagerPage";
 
 export default function MainContent() {
   return (
@@ -19,6 +20,9 @@ export default function MainContent() {
         <Switch>
           <Route path="/success">
             <SuccessPage />
+          </Route>
+          <Route path="/restaurant/manager">
+            <ManagerPage />
           </Route>
           <Route path="/restaurant">
             <RestaurantPage />
