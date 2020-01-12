@@ -1,7 +1,7 @@
 import React from 'react';
 import 'Navbar.scss';
 
-function Navbar() {
+export default function Navbar() {
   return (
     <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand" href="#">Queue Up!</a>
@@ -11,5 +11,3 @@ function Navbar() {
     </nav>
   );
 };
-
-export default Navbar;

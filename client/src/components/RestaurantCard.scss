@@ -1,0 +1,10 @@
+@import "styles/colors.scss";
+
+.restaurant-card {
+  .card {
+    background: $theme;
+    button {
+      color: #ffffff;
+    }
+  }
+}
