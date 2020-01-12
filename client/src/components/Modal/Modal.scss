@@ -1,0 +1,22 @@
+@import "styles/colors";
+
+.modal {
+  display: none;
+  opacity: 0;
+  background-color: rgba(36, 36, 36, 0.8);
+  &.active {
+    display: block;
+    opacity: 100;
+  }
+  .modal-header {
+    background-color: $theme;
+    color: white;
+  }
+  .modal-body {
+    margin-top: 20px;
+  }
+  .btn-theme {
+    background-color: $theme;
+    color: white;
+  }
+}

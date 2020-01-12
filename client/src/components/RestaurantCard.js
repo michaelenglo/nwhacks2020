@@ -11,12 +11,12 @@ export default function RestaurantCard(props) {
             {`${props.distance}km from you`}
           </div>
           <div className="card-tags">
-            <span class="badge badge-dark">{`${props.time[0]}~${props.time[1]}`} min<div>wait time</div></span>
+            <span class="badge badge-dark">{props.time} min<div>wait time</div></span>
             <span class="badge badge-dark">{props.ahead}<div>people ahead</div></span>
           </div>
         </div>
         <div className="card-body">
-          <button type="button" className="btn btn-link btn-lg btn-block"><h5 class="card-title">Queue Up!</h5></button>
+          <button onClick={props.onClick} type="button" className="btn btn-link btn-lg btn-block"><h5 class="card-title">Queue Up!</h5></button>
         </div>
       </div>
     </div>
