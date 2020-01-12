@@ -12,16 +12,16 @@ class QueueUpModal extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleClose = this.handleClose.bind(this);
     this.handleNameChange = this.handleNameChange.bind(this);
-    this.handleSeatsChange = this.handleNameChange.bind(this);
+    this.handleSeatsChange = this.handleSeatsChange.bind(this);
     this.handlePhoneNumber = this.handlePhoneNumber.bind(this);
   }
 
   handleNameChange(e) {
-    this.setState({ projectName: e.target.value });
+    this.setState({ name: e.target.value });
   }
 
   handlePhoneNumber(e) {
-    this.setState({ contact: e.target.value });
+    this.setState({ phoneNumber: e.target.value });
   }
 
   handleSeatsChange(e) {
@@ -29,11 +29,11 @@ class QueueUpModal extends React.Component {
   }
 
   async handleSubmit() {
-    const { projectName, contact, folderPath } = this.state;
-    let canSubmit = projectName && contact && folderPath;
+    const { name, phoneNumber, seats } = this.state;
+    let canSubmit = name && phoneNumber && seats;
 
     if (canSubmit) {
-      this.props.onSubmit({ projectName, contact, path: folderPath });
+      this.props.onSubmit({ name, phoneNumber, seats });
       this.handleClose();
     }
   }
@@ -44,7 +44,7 @@ class QueueUpModal extends React.Component {
       phoneNumber: null,
       seats: null
     });
-    // this.props.onClose();
+    this.props.onClose();
   }
 
   render() {

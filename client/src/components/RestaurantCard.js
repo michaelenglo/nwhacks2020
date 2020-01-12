@@ -16,7 +16,7 @@ export default function RestaurantCard(props) {
           </div>
         </div>
         <div className="card-body">
-          <button onClick={props.onClick} type="button" className="btn btn-link btn-lg btn-block"><h5 class="card-title">Queue Up!</h5></button>
+          <button onClick={() => {props.onClick(props.restaurantId)}} type="button" className="btn btn-link btn-lg btn-block"><h5 class="card-title">Queue Up!</h5></button>
         </div>
       </div>
     </div>
