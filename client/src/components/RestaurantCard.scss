@@ -3,8 +3,45 @@
 .restaurant-card {
   .card {
     background: $theme;
-    button {
-      color: #ffffff;
+    color: white;
+    width: 500px;
+    .card-img {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      background-color: black;
+      padding: 10px;
+
+      .card-title {
+        h3 {
+          margin-bottom: 0;
+        }
+      }
+
+      .card-tags {
+        opacity: .9;
+        position: absolute;
+        font-size: 20px;
+        right: 10px;
+        bottom: 10px;
+
+        .badge {
+          font-size: 20px;
+          margin-left: 20px;
+          div {
+            margin-top: 5px;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+
+    .card-body {
+      margin: 0;
+      padding: 0;
+      button {
+        color: #ffffff;
+      }
     }
   }
 }
