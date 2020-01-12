@@ -64,7 +64,7 @@ class HomePage extends React.Component {
                       ahead={r2.QueueEntries.length}
                       coverUrl={`${env.IMG_ENDPOINT}/${r2.ImageName}`}
                       onClick={this.cardClickHandler}
-                      restaurantId={r1.Id}
+                      restaurantId={r2.Id}
                     />
                   </div>
                 </div>)
