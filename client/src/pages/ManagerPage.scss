@@ -48,4 +48,19 @@ $s-screen: 512px;
   @media (max-width: $s-screen) {
     padding: 30px 0px 0 0px;
   }
+
+  .queue-list {
+      background-color: #EB5757;
+      color: white;
+      width: 500px;
+      margin: auto;
+      font-size: 25px;
+      display: flex;
+      padding: 10px;
+  }
+
+  .flex {
+      display: flex;
+      flex: 1;
+  }
 }
