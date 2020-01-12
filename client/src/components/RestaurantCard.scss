@@ -3,8 +3,43 @@
 .restaurant-card {
   .card {
     background: $theme;
-    button {
-      color: #ffffff;
+    color: white;
+    .card-img {
+      position: relative;
+      width: 500px;
+      height: 300px;
+      background-color: black;
+      padding: 10px;
+
+      .card-title {
+        h3 {
+          margin-bottom: 0;
+        }
+      }
+
+      .card-tags {
+        position: absolute;
+        font-size: 20px;
+        right: 10px;
+        bottom: 10px;
+
+        .badge {
+          font-size: 20px;
+          margin-left: 20px;
+          div {
+            margin-top: 5px;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+
+    .card-body {
+      margin: 0;
+      padding: 0;
+      button {
+        color: #ffffff;
+      }
     }
   }
 }

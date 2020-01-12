@@ -8,10 +8,10 @@ export default function HomePage() {
       <div class="container">
         <div class="row">
           <div class="col-sm">
-            <RestaurantCard />
+            <RestaurantCard name="Chef Hung" distance="1.5" time={[11, 20]} ahead="12"/>
           </div>
           <div class="col-sm">
-            <RestaurantCard />
+            <RestaurantCard name="Chef Hung" distance="1.5" time={[11, 20]} ahead="12"/>
           </div>
         </div>
       </div>
