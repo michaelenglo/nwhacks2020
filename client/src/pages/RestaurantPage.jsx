@@ -60,10 +60,10 @@ class RestaurantPage extends React.Component {
 			Name: info.name,
 		};
 		const url = `${env.API_ENDPOINT}/restaurants/push_to_queue?${this.encodeQueryData(query)}`;
-		console.log('request:', url);
+		// console.log('request:', url);
 		const res = await fetch(url);
 		if (res.ok) {
-			alert('success!');
+			this.props.history.push(`/success`);			
 		}
 	}
 
