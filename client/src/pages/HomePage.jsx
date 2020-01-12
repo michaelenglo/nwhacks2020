@@ -52,9 +52,9 @@ class HomePage extends React.Component {
                   <div className="col-md">
                     <RestaurantCard
                       name={r1.Name}
-                      distance="1.5" time={`~${r1.QueueEntries.length * r1.AvgWaitTime}`}
+                      distance="0" time={`${r1.QueueEntries.length * r1.AvgWaitTime}`}
                       ahead={r1.QueueEntries.length}
-                      coverUrl={`http://127.0.0.1:8080/assets/img/${r1.ImageName}`}
+                      coverUrl={`${env.IMG_ENDPOINT}/${r1.ImageName}`}
                       onClick={this.cardClickHandler}
                       restaurantId={r1.Id}
                     />
@@ -62,9 +62,9 @@ class HomePage extends React.Component {
                   <div className="col-md">
                     <RestaurantCard
                       name={r2.Name}
-                      distance="1.5" time={`~${r2.QueueEntries.length * r1.AvgWaitTime}`}
+                      distance="2.3" time={`${r2.QueueEntries.length * r1.AvgWaitTime}`}
                       ahead={r2.QueueEntries.length}
-                      coverUrl={`http://127.0.0.1:8080/assets/img/${r2.ImageName}`}
+                      coverUrl={`${env.IMG_ENDPOINT}/${r2.ImageName}`}
                       onClick={this.cardClickHandler}
                       restaurantId={r1.Id}
                     />
