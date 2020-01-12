@@ -69,7 +69,7 @@ class RestaurantPage extends React.Component {
 	render() {
 		const { restaurant } = this.state;
 		return (
-			<div>
+			<div className="restaurant-page">
 				<QueueUpModal
 					show={this.state.showModal}
 					onClose={this.handleCloseModal}
@@ -102,7 +102,7 @@ class RestaurantPage extends React.Component {
 											<h6>people ahead</h6>
 										</div>
 									</div>
-									<div class="row ">
+									<div class="row">
 										<div class="col-8">
 											<p><FaCar/>&nbsp;&nbsp;0 min drive</p>
 											<p><GoLocation/>&nbsp;&nbsp;You are here</p>
