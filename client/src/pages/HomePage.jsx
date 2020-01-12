@@ -34,9 +34,7 @@ class HomePage extends React.Component {
   }
 
   cardClickHandler(id) {
-    this.props.history.push("/restaurant", {
-      restaurantId: id,
-    });
+    this.props.history.push(`/restaurant/${id}`);
   }
 
   render() {

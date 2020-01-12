@@ -24,7 +24,7 @@ export default function MainContent() {
           <Route path="/restaurant/manager/:RestaurantID">
             <ManagerPage />
           </Route>
-          <Route path="/restaurant">
+          <Route path="/restaurant/:RestaurantID">
             <RestaurantPage />
           </Route>
           <Route path="/">
