@@ -21,7 +21,7 @@ export default function MainContent() {
           <Route path="/success">
             <SuccessPage />
           </Route>
-          <Route path="/restaurant/manager">
+          <Route path="/restaurant/manager/:RestaurantID">
             <ManagerPage />
           </Route>
           <Route path="/restaurant">
