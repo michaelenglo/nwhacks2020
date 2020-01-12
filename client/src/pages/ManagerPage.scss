@@ -1,10 +1,49 @@
 $s-screen: 512px;
 
-.homepage {
-  padding: 30px 30px 0 30px;
+.managerpage {
+  padding: 30px 30px 30px 30px;
+  text-align: center;
   .row > div {
     margin-bottom: 20px;
   }
+
+.container {
+	margin: 40px 0 0 0;
+	width: 40%;
+    margin: 0 auto;
+}
+
+ .arrived {
+ 	margin: 10px 10px 10px 10px;
+    border: none;
+	background-color: #67ab6c;
+	padding: 20px 40px;
+	font-size: 1.2rem;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+ }
+
+ .arrived:hover {
+		background-color: #508754;
+		color: white;
+	}
+
+  .cancelled {
+   	margin: 10px 10px 10px 10px;
+    border: none;
+	background-color: #944141;
+	padding: 20px 40px;
+	font-size: 1.2rem;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+ }
+
+ .cancelled:hover {
+		background-color: #703131;
+		color: white;
+	}
 
   @media (max-width: $s-screen) {
     padding: 30px 0px 0 0px;
