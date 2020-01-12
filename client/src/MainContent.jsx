@@ -8,6 +8,7 @@ import {
 
 import HomePage from "pages/HomePage";
 import RestaurantPage from "pages/RestaurantPage";
+import SuccessPage from "pages/SuccessPage";
 
 export default function MainContent() {
   return (
@@ -16,11 +17,10 @@ export default function MainContent() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/about">
-            {/* <About /> */}
+          <Route path="/success">
+            <SuccessPage />
           </Route>
           <Route path="/restaurant">
-            {/* <Users /> */}
             <RestaurantPage />
           </Route>
           <Route path="/">
