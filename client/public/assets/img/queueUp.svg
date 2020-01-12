@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Serif DrawPlus 11, 0, 0, 18 (Sep 30, 15:06:09) (http://www.serif.com) -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="480" height="288">
+	<g id="Layer_1">
+		<path id="dp_path001" fill="#ed5757" fill-rule="evenodd" stroke="none" stroke-width="1.33333" d="M -213.396,530.125 C -159.64,530.125 -116.063,573.703 -116.063,627.459 C -116.063,681.215 -159.64,724.792 -213.396,724.792 C -267.152,724.792 -310.729,681.215 -310.729,627.459 C -310.729,573.703 -267.152,530.125 -213.396,530.125 Z "/>
+		<text id="dp_text001" transform="matrix(1.07502,0,0,1,272.099,196.255)" xml:space="preserve" fill="white" font-family="Bahnschrift Light Condensed" font-size="128" font-weight="700" font-style="italic" x="0" y="0"> UP </text>
+		<text id="dp_text002" transform="matrix(1.07098,0,0,1,42.7227,198.095)" xml:space="preserve" fill="white" font-family="Bahnschrift Light Condensed" font-size="114" font-weight="400" x="0" y="0">Queue </text>
+		<path id="dp_path004" fill="#d46262" fill-rule="evenodd" stroke="none" stroke-width="1.33333" d="M 946.667,319.333 L 953.333,319.333 L 953.333,324.333 L 946.667,324.333 Z "/>
+		<text id="dp_text003" transform="matrix(1,0,0,1,685.333,430.668)" xml:space="preserve" fill="black" font-family="Times New Roman" font-size="16" font-weight="400" x="0" y="0">` </text>
+		<text id="dp_text004" transform="matrix(1,0,0,1,-253.64,683.7)" xml:space="preserve" fill="white" font-family="Bahnschrift Light Condensed" font-size="162" font-weight="400" x="1.916" y="-0.957333">Q</text>
+		<text id="dp_text005" transform="matrix(1,0,0,1,-253.64,683.7)" xml:space="preserve" fill="black" font-family="Times New Roman" font-size="18" font-weight="400" x="87.0653" y="0"> </text>
+	</g>
+</svg>
