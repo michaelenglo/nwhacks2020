@@ -9,8 +9,9 @@ import { MdPeopleOutline } from 'react-icons/md';
 class ManagerPage extends React.Component {
     constructor(props) {
         super(props);
+
         this.state = {
-            restaurantId: "recabCLMLtPp7jM0l",
+            restaurantId: this.props.match.params.RestaurantID,
             restaurant: {},
             restaurantQueueEntries: [],
         };
